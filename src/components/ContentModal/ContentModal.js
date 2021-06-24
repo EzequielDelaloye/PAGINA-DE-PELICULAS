@@ -23,8 +23,8 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     width: "90%",
     height: "80%",
-    backgroundColor: "#39445a",
-    border: "1px solid #282c34",
+    backgroundColor: "#545760",
+    border: "1px solid #FF0000",
     borderRadius: 10,
     color: "white",
     boxShadow: theme.shadows[5],
@@ -138,11 +138,11 @@ export default function TransitionsModal({ children, media_type, id }) {
                   <Button
                     variant="contained"
                     startIcon={<YouTubeIcon />}
-                    color="secondary"
+                    color="white"
                     target="__blank"
                     href={`https://www.youtube.com/watch?v=${video}`}
                   >
-                    Watch the Trailer
+                    Ver el Trailer
                   </Button>
                 </div>
               </div>
